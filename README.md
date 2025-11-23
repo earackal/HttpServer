@@ -40,7 +40,17 @@ um Personendaten zu speichern und zu manipulieren.
 | PUT     | `/person/{id}` | Bestehende Person aktualisieren |
 | DELETE  | `/person/{id}` | Person löschen                  |
 
+---
+
 ## Starten vom Server
 
 Um diesen Server zu starten, passe zunächst das Hibernate-Konfigurationsfile an. 
 Anschliessend, kann die main Methode der Klasse Main.java ausgeführt werden.
+
+---
+
+## Person-Entity
+
+Eine Person wird aus folgenden Feldern definiert:
+- firstname: Vorname
+- surname: Familienname
