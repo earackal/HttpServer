@@ -43,16 +43,4 @@ um Personendaten zu speichern und zu manipulieren.
 ## Starten vom Server
 
 Um diesen Server zu starten, passe zunächst das Hibernate-Konfigurationsfile an. 
-Anschliessend, führe den folgenden Befehl im Terminal aus:
-
-```bash
-./mvnw spring-boot:run
-```
-
-## Building
-
-Um das Projekt zu bilden, führe den folgenden Befehl aus:
-
-```bash
-./mvnw clean install
-```
+Anschliessend, kann die main Methode der Klasse Main.java ausgeführt werden.
